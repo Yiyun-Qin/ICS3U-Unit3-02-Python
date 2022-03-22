@@ -17,9 +17,11 @@ def main():
     # process
     if number_guess == constants.ANSWER:
         # output
+        print("")
         print("Your guess is right!")
     if number_guess != constants.ANSWER:
         # output
+        print("")
         print("Your guess is wrong!")
 
 
