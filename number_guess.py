@@ -15,14 +15,13 @@ def main():
     number_guess = int(input("Enter the number you guess between 0 - 9: "))
 
     # process
+    print("")
     if number_guess == constants.ANSWER:
         # output
-        print("")
         print("Your guess is right!")
     if number_guess != constants.ANSWER:
-        # output
-        print("")
         print("Your guess is wrong!")
+    print("\nDone.")
 
 
 if __name__ == "__main__":
